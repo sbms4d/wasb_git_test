@@ -30,3 +30,14 @@ way home from work.
 
 2. Look through our list of `branches` and try and `checkout` the right one! (More instructions will 
 appear in the version of the README.md file on each `branch`)
+
+---
+
+Nice! You found the code with Ians story on it. Except, it doesn't look quite right... This isn't the _final_ version, 
+we decided to rollback to a previous version!
+
+1. Check the `git log` commit history to find which commit holds the final copy of the story!
+
+2. Use the git reset command to rollback the branch to that version of the story, something like `git reset --hard <commit reference>` should do!
+
+Awesome work! let's find story number 2. This one is about Alex. Check out the Alex branch to continue with the tasks!
